@@ -83,9 +83,9 @@ const button = ({
   return (
     <Button
       onClick={() => !isDisabled && !isLoading && onClick()}
-      isDisabled={isDisabled}
+      $isDisabled={isDisabled}
       type={type}
-      isLoading={isLoading}
+      $isLoading={isLoading}
       flex={flex}
       small={small}
       outlined={outlined}
